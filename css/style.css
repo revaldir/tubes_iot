@@ -1,0 +1,67 @@
+/* NAVBAR */
+.navbar {
+	position: relative;
+	z-index: 1;
+}
+
+.navbar-brand {
+	font-family: 'Comfortaa', cursive;
+	font-size: 32px;
+	color: white !important;
+}
+
+.dropdown, .dropdown-item{
+	font-family: 'Crete Round', serif;
+	font-size: 16px;
+}
+
+/* DATA */
+#karbon, #karbon2 {
+	/*display: none;*/
+}
+
+
+/* BUTTON */
+#banner button {
+	position: relative;
+	margin-top: -15cm;
+	margin-left: 625px;
+	cursor: pointer;
+}
+
+/* BANNER */
+.jumbotron {
+	background: url("../img/sky.jpg");
+	background-position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+	z-index: 1;
+	margin-top: -75px;
+	height: 700px;
+}
+.jumbotron::after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 150%;
+	/*background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));*/
+	position: absolute;
+	bottom: 0;
+}
+
+.info-panel {
+	box-shadow: 0 3px 20px rgba(0,0,0,0.2);
+	border-radius: 12px;
+	background-color: #dededede;
+	padding: 50px;
+	margin-top: 150px;
+}
+
+
+/* FOOTER */
+#footer {
+	background: #202222;
+	color: #888;
+	padding: 1px 0px 2px;
+}
